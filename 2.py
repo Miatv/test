@@ -18,3 +18,4 @@ data = {
 with open('aihelper.json', 'w', encoding='utf-8') as f:  # открывает фаил в режиме записи
     json.dump(data, f, ensure_ascii=False,  # записывает данные из 'data' в файл
               indent=4)  # 'indent=4' означает что каждый уровень вложенности будет сдвинут на 4 пробела
+              
